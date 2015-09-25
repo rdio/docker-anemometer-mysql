@@ -1,6 +1,5 @@
 -- Create the database needed for the Box Anemometer
-DROP DATABASE IF EXISTS slow_query_log;
-CREATE DATABASE slow_query_log;
+CREATE DATABASE IF NOT EXISTS slow_query_log;
 USE slow_query_log;
 
 -- Create the global query review table
